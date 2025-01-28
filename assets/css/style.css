@@ -246,6 +246,33 @@ nav>button{
     flex: 1;
 }
 
+.bloc7{
+    padding-top: 8rem;
+    display: flex;
+    justify-content: center;
+}
+.bloc7>div{
+    flex: 1;
+    transform: rotate(270deg);
+    display: flex;
+    align-items: center;
+
+}
+.bloc7>div>div{ 
+    background-color: #618264;
+    width: 7.7rem;
+    height: 2rem;
+} 
+.bloc7>div>h2{
+    color: #618264;
+    width: 20rem;
+    text-align: center;
+    font-size: large;
+}
+.bloc7>img{
+    display: flex;
+}
+
 
 
                                                                                  
