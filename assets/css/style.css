@@ -318,6 +318,119 @@ nav>button{
 
 }
 
+@media screen and (max-width: 430px) {
+    nav{
+        margin: 0;
+        display: flex;
+        align-items: center;
+        gap: 5rem;
+    }
+    nav>ul>li{
+        display: none  
+    }
+    nav>button{
+        display: none;
+    }
+    .logo{
+        width: 87px;
+        height: 66px;
+    }
+    .menu{
+        display: block;
+        width: 38px;
+        height: 38px;
+        
+    }
+    .bloc1{
+        padding: 0rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .bloc1>img{
+        flex: 0;
+        /* align-items: center; */
+        width: 390px;
+        height: 341px;
+    }
+    .list_image{
+        display: flex;
+        justify-content: space-between;
+        flex: 1;
+    }
+    .barre_verte{
+        border-radius: 0px;
+    }
+    .text{
+        font-family: "IBM Plex Sans Hebrew", sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        align-self: end;
+    }
+    .p_image{
+        display: flex;
+        gap: 1rem;
+    
+    }
+    .image{
+        flex: 1;
+        display: flex;
+    }
+    .p_image>div{
+        flex: 1;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .p_image>div>P{
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        
+    }
+    .p_image>div>h1{
+        font-family: "IBM Plex Sans Hebrew", sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+       
+    }
+    hr{
+        border-top-style: solid;
+        border: 2px;
+    }
+    .bloc3>div>iframe{
+        display: flex;
+        width: 38rem;
+        height: 22.2rem;
+        justify-content: center;
+    }
+    .bloc4{
+        display: flex;
+        flex-direction: column;
+    }
+    .bloc4>main>iframe{
+        width: 37.2rem;
+        height: 22rem;
+    }
+    .bloc4>div{
+        flex: 1;
+    }
+    .bloc6{
+        display: flex;
+        flex-direction: column;
+    }
+    .bloc6>main>{
+        width: 37.2rem;
+        height: 22rem;
+    }
+    .bloc6>div{
+        flex: 1;
+    }
+    .disparait{
+        display: none;
+    }
+    }
+    
+
 
 
                                                                                  
