@@ -58,5 +58,66 @@ nav>button{
 .menu{
     display: none;
 }
+
+.bloc1{
+    gap: 4rem;
+    display: flex;
+    padding: 5rem 4rem;
+}
+.bloc1>img{
+    flex: 2;
+}
+   
+.list_image{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    flex-direction: column;
+}
+.barre_text{
+    display: flex;
+}
+.barre_verte{
+    background-color: #618264;
+    width: 13px;
+    height: 50px;
+    border-radius: 10px;
+}
+.text{
+    font-family: "IBM Plex Sans Hebrew", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    align-self: center;
+    padding-left: .7rem;
+}
+.p_image{
+    display: flex;
+    gap: 1rem;
+
+}
+.image{
+    flex: 1;
+    display: flex;
+}
+.p_image>div{
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.p_image>div>P{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    
+}
+
+.p_image>div>h1{
+    font-family: "IBM Plex Sans Hebrew", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+   
+}
+
                                                                                  
 
