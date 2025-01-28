@@ -116,8 +116,27 @@ nav>button{
     font-family: "IBM Plex Sans Hebrew", sans-serif;
     font-size: 20px;
     font-weight: 600;
-   
 }
+
+.bloc2{
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 4rem;
+}
+.bloc2>div{
+}
+.bloc2>div>img{
+    width: 340px;
+    height: 350px;
+}
+.bloc2>div>p{
+    color: #618264;
+    font-style: italic;
+}
+.bloc2>div>h1{
+    color: black; 
+}
+
 
                                                                                  
 
