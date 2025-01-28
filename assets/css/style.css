@@ -272,6 +272,26 @@ nav>button{
 .bloc7>img{
     display: flex;
 }
+.bloc8{
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 4rem;
+    padding-bottom: 50rem;
+}
+.bloc8>div{
+    height: 120px;
+}
+.bloc8>div>img{
+    width: 340px;
+    height: 350px;
+}
+.bloc8>div>p{
+    color: #618264;
+    font-style: italic;
+}
+.bloc8>div>h1{
+    color: black; 
+}
 
 
 
