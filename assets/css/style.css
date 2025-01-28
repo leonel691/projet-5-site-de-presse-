@@ -209,6 +209,43 @@ nav>button{
 .bloc5>div>h1{
     color: black; 
 }
+.bloc6{
+    display: flex;
+    padding: 1rem 4rem;
+}
+.comment{
+    display: none;
+}
+
+.bloc6>div{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex: 1;
+}
+.bloc6>div>h1{
+    font-family: "IBM Plex Sans Hebrew", sans-serif;
+    font-size: 2rem;
+    color: #618264; 
+}
+
+.bloc6>div>p{
+    font-family: "open sans" sans-serif;
+    font-size: 1.2rem;
+    flex-direction: column;
+}
+.bloc6>div>div{
+    display: flex;
+    gap: 1.5rem;
+}
+.bloc6>div>div>img{
+    width: 1.6rem;
+    height: 1.6rem;
+}
+.disparait{
+    flex: 1;
+}
+
 
 
                                                                                  
