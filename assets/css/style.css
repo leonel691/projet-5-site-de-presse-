@@ -190,7 +190,25 @@ nav>button{
     width: 1.6rem;
     height: 1.6rem;
 }
-
+.bloc5{
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 4rem;
+}
+.bloc5>div{
+     
+}
+.bloc5>div>img{
+    width: 340px;
+    height: 350px;
+}
+.bloc5>div>p{
+    color: #618264;
+    font-style: italic;
+}
+.bloc5>div>h1{
+    color: black; 
+}
 
 
                                                                                  
